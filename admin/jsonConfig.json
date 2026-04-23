@@ -56,6 +56,9 @@
       "label": "Livebild per Snapshot aktivieren",
       "default": true,
       "sm": 12,
+      "xs": 12,
+      "lg": 4,
+      "xl": 4,
       "md": 6
     },
     "liveSnapshotIntervalSec": {
@@ -65,6 +68,9 @@
       "max": 3600,
       "default": 10,
       "sm": 12,
+      "xs": 12,
+      "lg": 4,
+      "xl": 4,
       "md": 6
     },
     "storeBase64": {
@@ -72,6 +78,9 @@
       "label": "Bild zusätzlich als Base64-Data-URL im State speichern",
       "default": true,
       "sm": 12,
+      "xs": 12,
+      "lg": 4,
+      "xl": 4,
       "md": 6
     },
     "cleanupOldSnapshots": {
@@ -79,6 +88,9 @@
       "label": "Alte Snapshot-Dateien automatisch löschen",
       "default": true,
       "sm": 12,
+      "xs": 12,
+      "lg": 4,
+      "xl": 4,
       "md": 6
     },
     "maxSnapshotAgeHours": {
@@ -88,6 +100,9 @@
       "max": 168,
       "default": 24,
       "sm": 12,
+      "xs": 12,
+      "lg": 4,
+      "xl": 4,
       "md": 6
     },
     "batteryWarningHeader": {

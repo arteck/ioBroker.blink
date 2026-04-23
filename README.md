@@ -31,8 +31,8 @@ More to come
 * (Pischleuder1) initial release
 
 ## Changelog
-###  0.0.1 (initial release 2026-04-23)
-
+###  0.0.1 (2026-04-23)
+- initial release
 
 ## License
 MIT License
