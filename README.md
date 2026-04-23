@@ -1,4 +1,4 @@
-![Logo](admin/blinkpy.png)
+![Logo](admin/blink.png)
 # ioBroker.blink
 
 [![NPM version](https://img.shields.io/npm/v/iobroker.blinkpy.svg)](https://www.npmjs.com/package/iobroker.blinkpy)
