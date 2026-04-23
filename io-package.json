@@ -66,10 +66,13 @@
 		"type": "alarm",
 		"compact": true,
 		"connectionType": "cloud",
+                "jsonConfig": true,
+                "materialize": true,
 		"dataSource": "poll",
 		"adminUI": {
 			"config": "json"
 		},
+               
 		"dependencies": [
 			{
 				"js-controller": ">=6.0.11"
@@ -79,12 +82,40 @@
 			{
 				"admin": ">=7.6.20"
 			}
-		]
+		],
+               "encryptedNative": [
+               "password"
+    ]
 	},
-	"native": {
-		"option1": true,
-		"option2": "42"
-	},
-	"objects": [],
-	"instanceObjects": []
+"native": {
+    "email": "",
+    "password": "",
+    "pin": "",
+    "pollIntervalSec": 60,
+    "snapshotDir": "/opt/iobroker/iobroker-data/blink",
+    "liveSnapshotEnabled": true,
+    "liveSnapshotIntervalSec": 30,
+    "storeBase64": true,
+    "cleanupOldSnapshots": true,
+    "maxSnapshotAgeHours": 24,
+    "batteryWarningEnabled": false,
+    "batteryWarningThresholdVolt": 1.1,
+    "batteryWarningPushoverInstance": "pushover.0",
+    "batteryWarningCooldownHours": 24
+  },
+	 "objects": [],
+  "instanceObjects": [
+    {
+      "_id": "info.connection",
+      "type": "state",
+      "common": {
+        "name": "Connected",
+        "type": "boolean",
+        "role": "indicator.connected",
+        "read": true,
+        "write": false
+      },
+      "native": {}
+    }
+  ]
 }
