@@ -32,7 +32,7 @@ More to come
 
 ## Changelog
 
-###  0.0.1 (2026-04-23)
+### 0.0.1 (2026-04-23)
 * initial release
 
 ## License
