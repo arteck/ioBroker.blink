@@ -13,7 +13,7 @@
 
 ioBroker adapter for Blink cameras
 
-### Getting started
+## Getting started
 
 Install via the ioBroker Admin interface : https://github.com/Pischleuder1/ioBroker.blink
 
@@ -21,7 +21,7 @@ Install via the ioBroker Admin interface : https://github.com/Pischleuder1/ioBro
 
 * coming soon
 
-### DISCLAIMER
+## DISCLAIMER
 
 All product and company names or logos are trademarks™ or registered® trademarks of their respective holders. Use of them does not imply any affiliation with or endorsement by them or any associated subsidiaries! This personal project is maintained in spare time and has no business goal. Blink is a trademark of Amazon Technologies, Inc..
 
