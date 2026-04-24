@@ -31,7 +31,7 @@ More to come
 * (Pischleuder1) initial release
 
 ## Changelog
-### 0.0.2 (2026-04-24
+### 0.0.2 (2026-04-24)
 * update language
   
 ### 0.0.1 (2026-04-23)
